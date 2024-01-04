@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>LUBRICANTES PARA VEHÍCULOS</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <!-- Replicación de Productos 1-8 -->
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://promart.vteximg.com.br/arquivos/ids/6551435-275-275/132440.jpg?v=638001767148630000" alt="">
+                    </div>
+                    <p class="descripcion">Aceite Sintético 5W-30</p>
+                    <span class="precio">$ 30</span>
+                </div>
+
+                <!-- Replicar para los productos restantes... -->
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://promart.vteximg.com.br/arquivos/ids/6551443-275-275/132441.jpg?v=638001767516700000" alt="">
+                    </div>
+                    <p class="descripcion">Aceite Sintético 5W-30</p>
+                    <span class="precio">$ 30</span>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://promart.vteximg.com.br/arquivos/ids/6890338-275-275/132438.jpg?v=638157889717800000" alt="">
+                    </div>
+                    <p class="descripcion">Aceite Sintético 5W-30</p>
+                    <span class="precio">$ 30</span>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://storage.googleapis.com/blog-files-gcs-prod/uploads/sites/11/2020/12/total-quartz-ineo-ecs-5w30.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Aceite Sintético 5W-30</p>
+                    <span class="precio">$ 30</span>
+                </div>
+
+
+            </div>
+            <div class="fila">
+                <!-- Replicar para los productos restantes... -->
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://sodimac.scene7.com/is/image/SodimacPeru/3655644_01?wid=800&hei=800&qlt=70" alt="">
+                    </div>
+                    <p class="descripcion">Aceite Sintético 5W-30</p>
+                    <span class="precio">$ 30</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://storage.googleapis.com/blog-files-gcs-prod/uploads/sites/11/2020/12/total-quartz-ineo-ecs-5w30.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Aceite Sintético 5W-30</p>
+                    <span class="precio">$ 30</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://chedrauimx.vtexassets.com/arquivos/ids/23706796/7501087501709_00.jpg?v=638382638752700000" alt="">
+                    </div>
+                    <p class="descripcion">Aceite Sintético 5W-30</p>
+                    <span class="precio">$ 30</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://sodimac.scene7.com/is/image/SodimacPeru/2526832_01?wid=800&hei=800&qlt=70" alt="">
+                    </div>
+                    <p class="descripcion">Aceite Sintético 5W-30</p>
+                    <span class="precio">$ 30</span>
+                </div>
+
+
+
+            
+            </div>
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="https://autoplanet.pe/wp-content/uploads/2022/10/LUBCOOLANT01-300x300.jpg" alt="" id="img">
+                <h2 id="modelo">Aceite Sintético 5W-30</h2>
+                <p id="descripcion">Descripción del lubricante para motores a gasolina.</p>
+                <span class="precio" id="precio">$ 30</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">VISCOSIDAD</label>
+                        <select name="" id="">
+                            <option value="">5W-30</option>
+                            <option value="">10W-40</option>
+                            <option value="">15W-50</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
